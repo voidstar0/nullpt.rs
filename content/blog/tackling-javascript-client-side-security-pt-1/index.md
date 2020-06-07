@@ -58,7 +58,7 @@ Now, lets call node testing.js
 
 a3U is not defined, hmm. I check back to the protected code and realize a3U is pointing to a global variable named A1aa
 
-![](./varreferrence.png)
+![](./varreference.png)
 
 So I change a3U in the test to A1aa and try running it again
 
