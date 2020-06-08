@@ -9,10 +9,15 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
+      <div style={{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+      }}>
+        <h1
         style={{
           ...scale(1.5),
-          marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
       >
@@ -26,10 +31,21 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
+      <span><Link to={'/about'} style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}>whoami</Link></span>
+      </div>
     )
   } else {
     header = (
-      <h3
+      <div style={{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+      }}>
+        <h3
         style={{
           fontFamily: `Libre Franklin, sans-serif`
         }}
@@ -44,6 +60,11 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h3>
+      <span><Link to={'/about'} style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}>whoami</Link></span>
+      </div>
     )
   }
   return (

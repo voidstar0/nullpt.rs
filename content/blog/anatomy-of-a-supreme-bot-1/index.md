@@ -1,7 +1,8 @@
 ---
 title: Anatomy of a Supreme Bot Pt 1
 date: "2018-09-24"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: A guide explaining how to find items on the Supreme site and how bots take advantage of this.
+featuredImage: './supremereqs.png'
 ---
 
 The Supreme bot market has become flooded with bad bots. Bad why? Because they all do the same thing and claim to be better than the next bad bot. How do they work exactly? Good question.

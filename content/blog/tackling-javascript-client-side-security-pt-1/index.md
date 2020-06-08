@@ -2,6 +2,7 @@
 title: Tackling JavaScript Client Side Security Pt 1
 date: "2019-02-18"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+featuredImage: './header.png'
 ---
 
 ![](./header.png)
